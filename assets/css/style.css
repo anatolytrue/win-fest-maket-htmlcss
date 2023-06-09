@@ -1,0 +1,26 @@
+p {
+    color: cadetblue;
+}
+
+.green-paragraph{
+    color: green;
+}
+
+#red-paragraph{
+    color: yellow;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 300;
+    border: 5px solid green ;
+}
+
+button {
+    font-size: inherit;
+}
+
+p {
+    border: inherit;
+}
