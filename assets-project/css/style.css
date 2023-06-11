@@ -5,6 +5,14 @@ html {
     color: #000;
 }
 
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
 .body {
     max-width: 1440px;
     background-color: #F5F5F5;
@@ -12,4 +20,34 @@ html {
 
 .container {
     margin: 0 100px;
+}
+
+header {
+    background-color:rgba(241, 253, 255, 1);
+    background-image: url("https: //static.espreso.tv/uploads/photobank/235000_236000/235833_ukraine-peace_gettyimages.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+    width: 100%;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+.nav-item a{
+    font-size: 18px;
+    line-height: 96.9%;
+    color: #000;
+}
+
+.header-title {
+    font-size: 93px;
+    font-weight: 800;
+    line-height: 96.9%;;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #9AD2DE;
 }
