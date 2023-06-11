@@ -7,6 +7,7 @@ html {
 
 a {
     text-decoration: none;
+    color: #000;
 }
 
 li {
@@ -15,32 +16,51 @@ li {
 
 .body {
     max-width: 1440px;
-    background-color: #F5F5F5;
 }
 
 .container {
-    margin: 0 100px;
+    padding: 65px 100px;
 }
 
 header {
     background-color:rgba(241, 253, 255, 1);
-    background-image: url("https: //static.espreso.tv/uploads/photobank/235000_236000/235833_ukraine-peace_gettyimages.png");
+    background-image: url("/assets-project/img/medium-shot-woman-holding-ukranian-flag\ 1.png");
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: right bottom;
     width: 100%;
+}
+
+main {
+    background-color: #fff;
+}
+
+footer {
+    padding: 57px 100px 141px;
+    background-color: #F9FADF;
+    border-radius: 11px;
 }
 
 .nav-list {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    height: 65px;
+    margin-bottom: 75px;
+    padding-left: 0;
+}
 
 .nav-item a{
     font-size: 18px;
     line-height: 96.9%;
     color: #000;
+}
+
+.nav-btn {
+    background: #7AE5FD;
+    border-radius: 87px;
+    padding: 21px 28px;
+    text-transform: uppercase;
 }
 
 .header-title {
@@ -50,4 +70,240 @@ header {
     letter-spacing: -0.02em;
     text-transform: uppercase;
     color: #9AD2DE;
+    margin-bottom: 75px;
+}
+
+.header-description {
+    margin-bottom: 75px;
+    font-size: 20px;
+}
+
+/* .program-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.program-title {
+        font-weight: 400;
+        font-size: 60px;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        margin: 0;
+        text-align: center;
+}
+
+.program-description {
+    font-size: 27px;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+.program-text {
+    font-size: 20px;
+    text-align: center;
+    color: #73A6B1;
+    margin: 0;
+}
+
+section {
+    margin-bottom: 65px;
+}
+
+.program {
+    margin-bottom: 43px;
+}
+
+.program-scene {
+    background-color: #F1FDFF;
+    border-radius: 10px;
+    padding: 40px;
+    margin-bottom: 65px;
+}
+
+.program-scene-title {
+    font-weight: 400;
+    font-size: 46px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+}
+
+.program-scene-description {
+    font-size: 20px;
+    margin: 0 0 45px 0;
+}
+
+.program-scene-list {
+    margin: 0;
+    padding: 0;
+}
+
+.program-scene-event {
+    font-size: 16px;
+    margin: 0 0 10px 0;
+}
+
+.program-scene-time {
+    font-size: 16px;
+    margin: 0 0 35px 0;
+    color: #3D8C9D;
+}
+
+.program-button {
+    text-align: center;
+    padding: 21px 0;
+}
+
+.program-button a {
+    padding: 21px 35px;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 87px;
+    background: #7AE5FD;
+}
+
+.promotion {
+    background-image: url("/assets-project/img/Фон\ 5.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 68px;
+}
+
+/* .promotion-container {
+
+    padding: 180px 18px 110px 28px;
+
+} */
+
+.promotion-description {
+    padding: 89px 40px;
+    background-color: rgba(242, 254, 255, 1);
+    font-size: 27px;
+    /* width: 100%; */
+}
+
+/* .promotion-img {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 440px;
+} */
+
+.counter {
+    /* margin-bottom: 141px; */
+}
+
+.counter-title {
+    font-weight: 400;
+    font-size: 60px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.counter-description {
+    font-size: 20px;
+    text-align: center;
+    color: #73A6B1;
+    margin: 0;
+    margin-bottom: 77px;
+}
+
+.counter-text {
+    font-size: 27px;
+    text-align: center;
+}
+
+.counter-item {
+    font-size: 60px;
+}
+
+.counter-button {
+    text-align: center;
+    padding: 21px 0;
+}
+
+.counter-button a {
+    padding: 21px 35px;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 87px;
+    background: #7AE5FD;
+}
+
+.contacts {
+    margin-bottom: 100px;
+}
+
+.contacts-title {
+    font-weight: 400;
+    font-size: 60px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.contacts-list {
+    padding: 0;
+}
+
+.contacts-text {
+    font-size: 20px;
+    margin: 0;
+}
+
+.contacts-img {
+    margin-bottom: 10px;
+}
+
+.contacts-item:not(:last-child) {
+    margin-bottom: 57px;
+}
+
+.subscription {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 37px 97px 54px 39px;
+}
+
+.subscription-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.subscription-img {
+    margin-right: 89px;
+}
+
+.subscription-text {
+    font-size: 27px;
+}
+
+.subscription-input {
+    background-color: #F9FADF;
+    border-radius: 61px;
+    padding: 21px 43px;
+    margin-bottom: 31px;
+    box-sizing: border-box;
+    font-size: 20px;
+    border-style: none;
+}
+
+.subscription-button {
+    padding: 22px;
+    background: #7AE5FD;
+    border-radius: 61px;
+    font-size: 18px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    text-transform: uppercase;
+    border-style: none;
 }
