@@ -24,7 +24,7 @@ li {
 
 header {
     background-color:rgba(241, 253, 255, 1);
-    background-image: url("/assets-project/img/medium-shot-woman-holding-ukranian-flag\ 1.png");
+    background-image: url("/assets-project/img/medium-shot-woman-holding-ukranian-flag.png");
     background-repeat: no-repeat;
     background-position: right bottom;
     width: 100%;
@@ -164,7 +164,7 @@ section {
 }
 
 .promotion {
-    background-image: url("/assets-project/img/Фон\ 5.png");
+    background-image: url("/assets-project/img/Фон.png");
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 68px;
@@ -191,9 +191,9 @@ section {
     height: 440px;
 } */
 
-.counter {
+/* .counter {
     /* margin-bottom: 141px; */
-}
+/* } */
 
 .counter-title {
     font-weight: 400;
