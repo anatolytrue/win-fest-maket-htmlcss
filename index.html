@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets-project/css/reset.css">
     <link rel="stylesheet" href="./assets-project/css/style.css">
     <title>Фестиваль Перемоги України</title>
 </head>
@@ -20,10 +21,10 @@
                         <img src="./assets-project/img/Subtract.svg" alt="Logo">
                     </a>
                 </li>
-                <li class="nav-item"><a href="#">Контакти</a></li>
+                <li class="nav-item nav-item_first"><a href="#">Контакти</a></li>
                 <li class="nav-item"><a href="#">Головна</a></li>
                 <li class="nav-item"><a href="#">Програма</a></li>
-                <li class="nav-item nav-btn"><a href="#">Як потрапити</a></li>
+                <li class="nav-item"><a href="#" class="nav-btn">Як потрапити</a></li>
             </ul>
         </nav>    
             <h1 class="header-title">Фестиваль<br>Перемоги<br>України</h1>
@@ -42,71 +43,77 @@
                 </section>
                 
                 <section class="program-scene">
-                    <h3 class="program-scene-title">Сцена Перемоги</h3>
-                    <p class="program-scene-description">Розбудова України після війни</p>
-                    <ul class="program-scene-list">
-                        <li class="program-scene-item">
-                            <p class="program-scene-event">Виступ Президента України</p>
-                            <p class="program-scene-time">10:00-12:00</p>
-                        </li>
-                        <li class="program-scene-item">
-                            <p class="program-scene-event">Виступ представників ЄС</p>
-                            <p class="program-scene-time">13:00-14:00</p>
-                        </li>
-                        <li class="program-scene-item">
-                            <p class="program-scene-event">Виступ представників НАТО</p>
-                            <p class="program-scene-time">14:00-15:00</p>
-                        </li>
-                        <li class="program-scene-item">
-                            <p class="program-scene-event">Гімн України</p>
-                            <p class="program-scene-time">21:25-21:30</p>
-                        </li>
-                    </ul>
+                    <div class="program-scene-content">
+                        <h3 class="program-scene-title">Сцена Перемоги</h3>
+                        <p class="program-scene-description">Розбудова України після війни</p>
+                        <ul class="program-scene-list">
+                            <li class="program-scene-item">
+                                <p class="program-scene-event">Виступ Президента України</p>
+                                <p class="program-scene-time">10:00-12:00</p>
+                            </li>
+                            <li class="program-scene-item">
+                                <p class="program-scene-event">Виступ представників ЄС</p>
+                                <p class="program-scene-time">13:00-14:00</p>
+                            </li>
+                            <li class="program-scene-item">
+                                <p class="program-scene-event">Виступ представників НАТО</p>
+                                <p class="program-scene-time">14:00-15:00</p>
+                            </li>
+                            <li class="program-scene-item">
+                                <p class="program-scene-event">Гімн України</p>
+                                <p class="program-scene-time">21:25-21:30</p>
+                            </li>
+                        </ul>
+                    </div>
                     <img class="program-scene-img" src="./assets-project/img/Сцена-1.jpg" alt="Сцена перемоги">
                 </section>
 
                 <section class="program-scene">
-                    <h3 class="program-scene-title">Сцена "Музика"</h3>
-                    <ul class="program-scene-list">
-                        <li class="program-scene-item">
-                            <p class="program-scene-event">Артем Квасоваров</p>
-                            <p class="program-scene-time">14:00-15:00</p>
-                        </li>
-                        <li class="program-scene-item">
-                            <p class="program-scene-event">Степан Мега</p>
-                            <p class="program-scene-time">16:00-17:00</p>
-                        </li>
-                        <li class="program-scene-item">
-                            <p class="program-scene-event">Гурт “Протитіла”</p>
-                            <p class="program-scene-time">17:00-18:00</p>
-                        </li>
-                        <li class="program-scene-item">
-                            <p class="program-scene-event">Гурт “Надвірна”</p>
-                            <p class="program-scene-time">18:00-19:00</p>
-                        </li>
-                    </ul>
+                    <div class="program-scene-content">
+                        <h3 class="program-scene-title">Сцена "Музика"</h3>
+                        <ul class="program-scene-list">
+                            <li class="program-scene-item">
+                                <p class="program-scene-event">Артем Квасоваров</p>
+                                <p class="program-scene-time">14:00-15:00</p>
+                            </li>
+                            <li class="program-scene-item">
+                                <p class="program-scene-event">Степан Мега</p>
+                                <p class="program-scene-time">16:00-17:00</p>
+                            </li>
+                            <li class="program-scene-item">
+                                <p class="program-scene-event">Гурт “Протитіла”</p>
+                                <p class="program-scene-time">17:00-18:00</p>
+                            </li>
+                            <li class="program-scene-item">
+                                <p class="program-scene-event">Гурт “Надвірна”</p>
+                                <p class="program-scene-time">18:00-19:00</p>
+                            </li>
+                        </ul>
+                    </div>
                     <img class="program-scene-img" src="./assets-project/img/Сцена-2.jpg" alt="Сцена 'Музика'">
                 </section>
                 <section class="program-scene">
-                    <h3 class="program-scene-title">Сцена "Майстер-класи для дітей"</h3>
-                    <ul class="program-scene-list">
-                        <li class="program-scene-item">
-                            <p class="program-scene-event">Музей науки</p>
-                            <p class="program-scene-time">14:00-15:00</p>
-                        </li>
-                        <li class="program-scene-item">
-                            <p class="program-scene-event">Майстер-клас з ліплення</p>
-                            <p class="program-scene-time">16:00-17:00</p>
-                        </li>
-                        <li class="program-scene-item">
-                            <p class="program-scene-event">Майстер-клас з машинобудування</p>
-                            <p class="program-scene-time">17:00-18:00</p>
-                        </li>
-                        <li class="program-scene-item">
-                            <p class="program-scene-event">Майстер-клас з роботехінки</p>
-                            <p class="program-scene-time">18:00-19:00</p>
-                        </li>
-                    </ul>
+                    <div class="program-scene-content">
+                        <h3 class="program-scene-title">Сцена "Майстер-класи для дітей"</h3>
+                        <ul class="program-scene-list">
+                            <li class="program-scene-item">
+                                <p class="program-scene-event">Музей науки</p>
+                                <p class="program-scene-time">14:00-15:00</p>
+                            </li>
+                            <li class="program-scene-item">
+                                <p class="program-scene-event">Майстер-клас з ліплення</p>
+                                <p class="program-scene-time">16:00-17:00</p>
+                            </li>
+                            <li class="program-scene-item">
+                                <p class="program-scene-event">Майстер-клас з машинобудування</p>
+                                <p class="program-scene-time">17:00-18:00</p>
+                            </li>
+                            <li class="program-scene-item">
+                                <p class="program-scene-event">Майстер-клас з роботехінки</p>
+                                <p class="program-scene-time">18:00-19:00</p>
+                            </li>
+                        </ul>
+                    </div>
                     <img class="program-scene-img" src="./assets-project/img/Сцена-3.jpg" alt="Сцена 'Майстер-класи для дітей'">
                 </section>
                 <div class="program-button">
@@ -125,8 +132,8 @@
                 <p class="counter-description">Фестиваль безкоштовний. Будемо збирати пожертви для відбудови<br>зруйнованих українських міст та сіл.</p>
                 <p class="counter-text">Наша мета 10 000 000 гривень!</p>
                 <ul class="counter-list">
-                    <li class="counter-item">00</li>
-                    <li class="counter-item">230</li>
+                    <li class="counter-item counter-item-line">00</li>
+                    <li class="counter-item counter-item-line">230</li>
                     <li class="counter-item">025</li>
                 </ul>
                 <div class="counter-button">
@@ -142,7 +149,7 @@
             <ul class="contacts-list">
                 <li class="contacts-item">
                     <img class="contacts-img" src="./assets-project/img/Phone.svg" alt="phone">
-                    <p class="contacts-text">Якщо у вас виникають питання – телефонуйте за номером <strong>0-987-654-321</strong> </p>
+                    <p class="contacts-text">Якщо у вас виникають питання – <br> телефонуйте за номером <br> <b>0-987-654-321</b> </p>
                 </li>
                 <li class="contacts-item">
                     <img class="contacts-img" src="./assets-project/img/TelegramLogo.svg" alt="Telegram">
